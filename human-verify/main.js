@@ -60,7 +60,6 @@ setColorTo(colorBoxToGuess, correctColor);
 colorBoxes.forEach((box) => {
     box.addEventListener('click', (event) => {
         if (box === colorBoxToGuess) {
-            alert('You are human!');
             toggleDisabled(checkbox);
             toggleDisabled(submitBtn);
             hideElement(colorBoxesContainer);
